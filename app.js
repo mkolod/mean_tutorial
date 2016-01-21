@@ -1,4 +1,4 @@
-var app = angular.module('shreddit', []);
+var app = angular.module('shreddit', ['ui.router']);
 
 app.factory('posts', [function(){
   var o = {
